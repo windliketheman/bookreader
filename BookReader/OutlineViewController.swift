@@ -28,7 +28,7 @@ class OutlineViewController: UITableViewController {
                     toc.append(current)
                 }
                 for i in (0..<current.numberOfChildren).reversed() {
-                    stack.append(current.child(at: i))
+                    stack.append(current.child(at: i)!)
                 }
             }
         }
