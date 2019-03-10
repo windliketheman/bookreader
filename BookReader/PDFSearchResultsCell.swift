@@ -39,7 +39,9 @@ class PDFSearchResultsCell: UITableViewCell {
 
         let highlightRange = (resultText! as NSString).range(of: searchText!, options: .caseInsensitive)
         let attributedString = NSMutableAttributedString(string: resultText!)
-        attributedString.addAttributes([.font: UIFont.boldSystemFont(ofSize: resultTextLabel.font.pointSize)], range: highlightRange)
+        let boldFont = UIFont.boldSystemFont(ofSize: resultTextLabel.font.pointSize)
+        // attributedString.addAttributes([NSFontAttributeName: boldFont], range: highlightRange) // before swift 4.0
+        attributedString.addAttributes([.font: boldFont], range: highlightRange) // after swift 4.0
         resultTextLabel.attributedText = attributedString
     }
 }

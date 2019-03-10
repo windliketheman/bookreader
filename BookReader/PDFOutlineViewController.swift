@@ -17,8 +17,8 @@ class PDFOutlineViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = UITableView.automaticDimension
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = UITableViewAutomaticDimension
 
         if let root = pdfDocument?.outlineRoot {
             var stack = [root]

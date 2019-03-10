@@ -54,7 +54,7 @@ class PDFReaderViewController: UIViewController, UIPopoverPresentationController
         pdfView.autoScales = true
         pdfView.displayMode = .singlePage
         pdfView.displayDirection = .horizontal
-        pdfView.usePageViewController(true, withViewOptions: [convertFromUIPageViewControllerOptionsKey(UIPageViewController.OptionsKey.interPageSpacing): 20])
+        pdfView.usePageViewController(true, withViewOptions: [UIPageViewControllerOptionInterPageSpacingKey: 20])
 
         pdfView.addGestureRecognizer(pdfViewGestureRecognizer)
 
@@ -343,9 +343,4 @@ class PDFViewGestureRecognizer: UIGestureRecognizer {
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent) {
         isTracking = false
     }
-}
-
-// Helper function inserted by Swift 4.2 migrator.
-fileprivate func convertFromUIPageViewControllerOptionsKey(_ input: UIPageViewController.OptionsKey) -> String {
-	return input.rawValue
 }
