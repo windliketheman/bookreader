@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="-353" y="137"/>
         </scene>
-        <!--PDF Shelf-->
+        <!--Shelf View Controller-->
         <scene sceneID="iMT-to-Kxe">
             <objects>
-                <tableViewController id="0wf-oF-bTk" userLabel="PDF Shelf" customClass="PDFShelfViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PDFShelfViewController" id="0wf-oF-bTk" userLabel="Shelf View Controller" customClass="PDFShelfViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="76" sectionHeaderHeight="28" sectionFooterHeight="28" id="88O-jC-xkR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,7 +97,7 @@
         <!--Reader View Controller-->
         <scene sceneID="Yrf-Lu-6I0">
             <objects>
-                <viewController storyboardIdentifier="PDFReaderIdentifier" id="c1d-mL-vIU" customClass="PDFReaderViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PDFReaderViewController" id="c1d-mL-vIU" customClass="PDFReaderViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wu0-JT-Hpp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,7 +240,7 @@
         <!--Search View Controller-->
         <scene sceneID="leh-pd-lGq">
             <objects>
-                <tableViewController id="peJ-xt-vda" customClass="PDFSearchViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PDFSearchViewController" id="peJ-xt-vda" customClass="PDFSearchViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="kS8-I9-TTl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -347,7 +347,7 @@
         <!--Thumbnail Grid View Controller-->
         <scene sceneID="rSc-WL-EDg">
             <objects>
-                <collectionViewController id="h3f-Yq-tRX" customClass="PDFThumbnailGridViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="PDFThumbnailGridViewController" id="h3f-Yq-tRX" customClass="PDFThumbnailGridViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="dlB-V6-X5k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -372,7 +372,7 @@
         <!--Outline View Controller-->
         <scene sceneID="CN4-Fj-Knr">
             <objects>
-                <tableViewController id="7xh-Uc-iyv" customClass="PDFOutlineViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PDFOutlineViewController" id="7xh-Uc-iyv" customClass="PDFOutlineViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="yDr-Rn-l9R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -427,7 +427,7 @@
         <!--Bookmark View Controller-->
         <scene sceneID="kbF-nX-8tO">
             <objects>
-                <collectionViewController id="njU-wR-lHC" customClass="PDFBookmarkViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="PDFBookmarkViewController" id="njU-wR-lHC" customClass="PDFBookmarkViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="kA2-3V-oDG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -469,7 +469,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="pdf_reader_navigation_brightness_max" width="9" height="9"/>
-        <image name="pdf_reader_navigation_brightness_min" width="7" height="7"/>
+        <image name="pdf_reader_navigation_brightness_max" width="24" height="24"/>
+        <image name="pdf_reader_navigation_brightness_min" width="24" height="24"/>
     </resources>
 </document>
