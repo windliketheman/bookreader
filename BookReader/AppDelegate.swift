@@ -8,10 +8,6 @@
 
 import UIKit
 
-extension Notification.Name {
-    static let documentDirectoryDidChange = Notification.Name("documentDirectoryDidChange")
-}
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?

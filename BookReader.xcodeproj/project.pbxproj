@@ -7,49 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		140E24F71F0A675900298665 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E24F61F0A675900298665 /* BookmarkViewController.swift */; };
-		140E24FA1F0A73F200298665 /* SearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E24F81F0A73F200298665 /* SearchResultsCell.swift */; };
-		140E250C1F0A790F00298665 /* SearchResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140E250E1F0A790F00298665 /* SearchResultsCell.xib */; };
-		140E25111F0A797E00298665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E25081F0A78C900298665 /* Main.storyboard */; };
+		140E24F71F0A675900298665 /* PDFBookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E24F61F0A675900298665 /* PDFBookmarkViewController.swift */; };
+		140E24FA1F0A73F200298665 /* PDFSearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E24F81F0A73F200298665 /* PDFSearchResultsCell.swift */; };
+		140E250C1F0A790F00298665 /* PDFSearchResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140E250E1F0A790F00298665 /* PDFSearchResultsCell.xib */; };
+		140E25111F0A797E00298665 /* PDFReader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E25081F0A78C900298665 /* PDFReader.storyboard */; };
 		140E25121F0A798400298665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E250F1F0A793100298665 /* LaunchScreen.storyboard */; };
 		140E25141F0AB67C00298665 /* ActionMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E25131F0AB67C00298665 /* ActionMenuViewController.swift */; };
-		140E25161F0AC19600298665 /* BookshelfCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E25151F0AC19600298665 /* BookshelfCell.swift */; };
+		140E25161F0AC19600298665 /* PDFShelfCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E25151F0AC19600298665 /* PDFShelfCell.swift */; };
 		140E251A1F0AE1BD00298665 /* Sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 140E25191F0ADEC800298665 /* Sample.pdf */; };
-		140E251D1F0AF89D00298665 /* ThumbnailGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140E251F1F0AF89D00298665 /* ThumbnailGridCell.xib */; };
-		14155C7E1F0A41B600A53380 /* BookshelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C7D1F0A41B600A53380 /* BookshelfViewController.swift */; };
-		14155C801F0A425F00A53380 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C7F1F0A425F00A53380 /* BookViewController.swift */; };
-		14155C821F0A449F00A53380 /* ThumbnailGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C811F0A449F00A53380 /* ThumbnailGridViewController.swift */; };
-		14155C841F0A450E00A53380 /* ThumbnailGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C831F0A450E00A53380 /* ThumbnailGridCell.swift */; };
-		14155C861F0A459200A53380 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C851F0A459200A53380 /* OutlineViewController.swift */; };
-		14155C881F0A45BE00A53380 /* OutlineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C871F0A45BE00A53380 /* OutlineCell.swift */; };
+		140E251D1F0AF89D00298665 /* PDFThumbnailGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140E251F1F0AF89D00298665 /* PDFThumbnailGridCell.xib */; };
+		14155C7E1F0A41B600A53380 /* PDFShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C7D1F0A41B600A53380 /* PDFShelfViewController.swift */; };
+		14155C801F0A425F00A53380 /* PDFReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C7F1F0A425F00A53380 /* PDFReaderViewController.swift */; };
+		14155C821F0A449F00A53380 /* PDFThumbnailGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C811F0A449F00A53380 /* PDFThumbnailGridViewController.swift */; };
+		14155C841F0A450E00A53380 /* PDFThumbnailGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C831F0A450E00A53380 /* PDFThumbnailGridCell.swift */; };
+		14155C861F0A459200A53380 /* PDFOutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C851F0A459200A53380 /* PDFOutlineViewController.swift */; };
+		14155C881F0A45BE00A53380 /* PDFOutlineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C871F0A45BE00A53380 /* PDFOutlineCell.swift */; };
 		14155C8A1F0A45E300A53380 /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C891F0A45E300A53380 /* AppearanceViewController.swift */; };
-		14155C8C1F0A460E00A53380 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C8B1F0A460E00A53380 /* SearchViewController.swift */; };
+		14155C8C1F0A460E00A53380 /* PDFSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14155C8B1F0A460E00A53380 /* PDFSearchViewController.swift */; };
 		1421EF151F0A411E00BEB695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1421EF141F0A411E00BEB695 /* AppDelegate.swift */; };
-		1421EF1C1F0A411E00BEB695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1421EF1B1F0A411E00BEB695 /* Assets.xcassets */; };
+		1421EF1C1F0A411E00BEB695 /* PDFReader.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1421EF1B1F0A411E00BEB695 /* PDFReader.xcassets */; };
+		E7C9FA3222350A55003FBCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C9FA3122350A55003FBCB6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		140E24F61F0A675900298665 /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
-		140E24F81F0A73F200298665 /* SearchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsCell.swift; sourceTree = "<group>"; };
-		140E25091F0A78C900298665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		140E250D1F0A790F00298665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SearchResultsCell.xib; sourceTree = "<group>"; };
+		140E24F61F0A675900298665 /* PDFBookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFBookmarkViewController.swift; sourceTree = "<group>"; };
+		140E24F81F0A73F200298665 /* PDFSearchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSearchResultsCell.swift; sourceTree = "<group>"; };
+		140E25091F0A78C900298665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PDFReader.storyboard; sourceTree = "<group>"; };
+		140E250D1F0A790F00298665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PDFSearchResultsCell.xib; sourceTree = "<group>"; };
 		140E25101F0A793100298665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		140E25131F0AB67C00298665 /* ActionMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionMenuViewController.swift; sourceTree = "<group>"; };
-		140E25151F0AC19600298665 /* BookshelfCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfCell.swift; sourceTree = "<group>"; };
+		140E25151F0AC19600298665 /* PDFShelfCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFShelfCell.swift; sourceTree = "<group>"; };
 		140E25191F0ADEC800298665 /* Sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Sample.pdf; sourceTree = "<group>"; };
-		140E251E1F0AF89D00298665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ThumbnailGridCell.xib; sourceTree = "<group>"; };
-		14155C7D1F0A41B600A53380 /* BookshelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfViewController.swift; sourceTree = "<group>"; };
-		14155C7F1F0A425F00A53380 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
-		14155C811F0A449F00A53380 /* ThumbnailGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailGridViewController.swift; sourceTree = "<group>"; };
-		14155C831F0A450E00A53380 /* ThumbnailGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailGridCell.swift; sourceTree = "<group>"; };
-		14155C851F0A459200A53380 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
-		14155C871F0A45BE00A53380 /* OutlineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineCell.swift; sourceTree = "<group>"; };
+		140E251E1F0AF89D00298665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PDFThumbnailGridCell.xib; sourceTree = "<group>"; };
+		14155C7D1F0A41B600A53380 /* PDFShelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFShelfViewController.swift; sourceTree = "<group>"; };
+		14155C7F1F0A425F00A53380 /* PDFReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderViewController.swift; sourceTree = "<group>"; };
+		14155C811F0A449F00A53380 /* PDFThumbnailGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFThumbnailGridViewController.swift; sourceTree = "<group>"; };
+		14155C831F0A450E00A53380 /* PDFThumbnailGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFThumbnailGridCell.swift; sourceTree = "<group>"; };
+		14155C851F0A459200A53380 /* PDFOutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFOutlineViewController.swift; sourceTree = "<group>"; };
+		14155C871F0A45BE00A53380 /* PDFOutlineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFOutlineCell.swift; sourceTree = "<group>"; };
 		14155C891F0A45E300A53380 /* AppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
-		14155C8B1F0A460E00A53380 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		14155C8B1F0A460E00A53380 /* PDFSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSearchViewController.swift; sourceTree = "<group>"; };
 		1421EF111F0A411E00BEB695 /* BookReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1421EF141F0A411E00BEB695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1421EF1B1F0A411E00BEB695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1421EF1B1F0A411E00BEB695 /* PDFReader.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PDFReader.xcassets; sourceTree = "<group>"; };
 		1421EF201F0A411E00BEB695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C9FA3122350A55003FBCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,23 +85,24 @@
 			isa = PBXGroup;
 			children = (
 				1421EF141F0A411E00BEB695 /* AppDelegate.swift */,
-				14155C7D1F0A41B600A53380 /* BookshelfViewController.swift */,
-				140E25151F0AC19600298665 /* BookshelfCell.swift */,
-				14155C7F1F0A425F00A53380 /* BookViewController.swift */,
-				14155C811F0A449F00A53380 /* ThumbnailGridViewController.swift */,
-				14155C831F0A450E00A53380 /* ThumbnailGridCell.swift */,
-				14155C851F0A459200A53380 /* OutlineViewController.swift */,
-				14155C871F0A45BE00A53380 /* OutlineCell.swift */,
-				140E24F61F0A675900298665 /* BookmarkViewController.swift */,
-				14155C8B1F0A460E00A53380 /* SearchViewController.swift */,
-				140E24F81F0A73F200298665 /* SearchResultsCell.swift */,
+				14155C7D1F0A41B600A53380 /* PDFShelfViewController.swift */,
+				140E25151F0AC19600298665 /* PDFShelfCell.swift */,
+				14155C7F1F0A425F00A53380 /* PDFReaderViewController.swift */,
+				14155C811F0A449F00A53380 /* PDFThumbnailGridViewController.swift */,
+				14155C831F0A450E00A53380 /* PDFThumbnailGridCell.swift */,
+				14155C851F0A459200A53380 /* PDFOutlineViewController.swift */,
+				14155C871F0A45BE00A53380 /* PDFOutlineCell.swift */,
+				140E24F61F0A675900298665 /* PDFBookmarkViewController.swift */,
+				14155C8B1F0A460E00A53380 /* PDFSearchViewController.swift */,
+				140E24F81F0A73F200298665 /* PDFSearchResultsCell.swift */,
 				14155C891F0A45E300A53380 /* AppearanceViewController.swift */,
 				140E25131F0AB67C00298665 /* ActionMenuViewController.swift */,
-				140E25081F0A78C900298665 /* Main.storyboard */,
-				140E251F1F0AF89D00298665 /* ThumbnailGridCell.xib */,
-				140E250E1F0A790F00298665 /* SearchResultsCell.xib */,
+				140E25081F0A78C900298665 /* PDFReader.storyboard */,
+				140E251F1F0AF89D00298665 /* PDFThumbnailGridCell.xib */,
+				140E250E1F0A790F00298665 /* PDFSearchResultsCell.xib */,
 				140E250F1F0A793100298665 /* LaunchScreen.storyboard */,
-				1421EF1B1F0A411E00BEB695 /* Assets.xcassets */,
+				1421EF1B1F0A411E00BEB695 /* PDFReader.xcassets */,
+				E7C9FA3122350A55003FBCB6 /* Assets.xcassets */,
 				1421EF201F0A411E00BEB695 /* Info.plist */,
 				140E25191F0ADEC800298665 /* Sample.pdf */,
 			);
@@ -164,11 +167,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140E25111F0A797E00298665 /* Main.storyboard in Resources */,
+				140E25111F0A797E00298665 /* PDFReader.storyboard in Resources */,
 				140E25121F0A798400298665 /* LaunchScreen.storyboard in Resources */,
-				1421EF1C1F0A411E00BEB695 /* Assets.xcassets in Resources */,
-				140E250C1F0A790F00298665 /* SearchResultsCell.xib in Resources */,
-				140E251D1F0AF89D00298665 /* ThumbnailGridCell.xib in Resources */,
+				1421EF1C1F0A411E00BEB695 /* PDFReader.xcassets in Resources */,
+				140E250C1F0A790F00298665 /* PDFSearchResultsCell.xib in Resources */,
+				E7C9FA3222350A55003FBCB6 /* Assets.xcassets in Resources */,
+				140E251D1F0AF89D00298665 /* PDFThumbnailGridCell.xib in Resources */,
 				140E251A1F0AE1BD00298665 /* Sample.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,38 +185,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				14155C8A1F0A45E300A53380 /* AppearanceViewController.swift in Sources */,
-				14155C841F0A450E00A53380 /* ThumbnailGridCell.swift in Sources */,
-				140E24FA1F0A73F200298665 /* SearchResultsCell.swift in Sources */,
+				14155C841F0A450E00A53380 /* PDFThumbnailGridCell.swift in Sources */,
+				140E24FA1F0A73F200298665 /* PDFSearchResultsCell.swift in Sources */,
 				140E25141F0AB67C00298665 /* ActionMenuViewController.swift in Sources */,
-				140E25161F0AC19600298665 /* BookshelfCell.swift in Sources */,
-				14155C861F0A459200A53380 /* OutlineViewController.swift in Sources */,
-				14155C8C1F0A460E00A53380 /* SearchViewController.swift in Sources */,
-				140E24F71F0A675900298665 /* BookmarkViewController.swift in Sources */,
-				14155C801F0A425F00A53380 /* BookViewController.swift in Sources */,
-				14155C7E1F0A41B600A53380 /* BookshelfViewController.swift in Sources */,
+				140E25161F0AC19600298665 /* PDFShelfCell.swift in Sources */,
+				14155C861F0A459200A53380 /* PDFOutlineViewController.swift in Sources */,
+				14155C8C1F0A460E00A53380 /* PDFSearchViewController.swift in Sources */,
+				140E24F71F0A675900298665 /* PDFBookmarkViewController.swift in Sources */,
+				14155C801F0A425F00A53380 /* PDFReaderViewController.swift in Sources */,
+				14155C7E1F0A41B600A53380 /* PDFShelfViewController.swift in Sources */,
 				1421EF151F0A411E00BEB695 /* AppDelegate.swift in Sources */,
-				14155C881F0A45BE00A53380 /* OutlineCell.swift in Sources */,
-				14155C821F0A449F00A53380 /* ThumbnailGridViewController.swift in Sources */,
+				14155C881F0A45BE00A53380 /* PDFOutlineCell.swift in Sources */,
+				14155C821F0A449F00A53380 /* PDFThumbnailGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		140E25081F0A78C900298665 /* Main.storyboard */ = {
+		140E25081F0A78C900298665 /* PDFReader.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				140E25091F0A78C900298665 /* Base */,
 			);
-			name = Main.storyboard;
+			name = PDFReader.storyboard;
 			sourceTree = "<group>";
 		};
-		140E250E1F0A790F00298665 /* SearchResultsCell.xib */ = {
+		140E250E1F0A790F00298665 /* PDFSearchResultsCell.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				140E250D1F0A790F00298665 /* Base */,
 			);
-			name = SearchResultsCell.xib;
+			name = PDFSearchResultsCell.xib;
 			sourceTree = "<group>";
 		};
 		140E250F1F0A793100298665 /* LaunchScreen.storyboard */ = {
@@ -223,12 +227,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		140E251F1F0AF89D00298665 /* ThumbnailGridCell.xib */ = {
+		140E251F1F0AF89D00298665 /* PDFThumbnailGridCell.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				140E251E1F0AF89D00298665 /* Base */,
 			);
-			name = ThumbnailGridCell.xib;
+			name = PDFThumbnailGridCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
