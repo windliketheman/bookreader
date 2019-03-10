@@ -240,7 +240,7 @@
         <!--Search View Controller-->
         <scene sceneID="leh-pd-lGq">
             <objects>
-                <tableViewController storyboardIdentifier="PDFSearchViewController" id="peJ-xt-vda" customClass="PDFSearchViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="peJ-xt-vda" customClass="PDFSearchViewController" customModule="BookReader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="kS8-I9-TTl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -452,7 +452,7 @@
         <!--Navigation Controller-->
         <scene sceneID="MSr-1x-dbv">
             <objects>
-                <navigationController storyboardIdentifier="SearchViewController" automaticallyAdjustsScrollViewInsets="NO" id="y5Z-QX-gza" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="PDFSearchViewController" automaticallyAdjustsScrollViewInsets="NO" id="y5Z-QX-gza" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HwD-cp-YRn">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
