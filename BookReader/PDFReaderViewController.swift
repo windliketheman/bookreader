@@ -44,7 +44,7 @@ class PDFReaderViewController: UIViewController, UIPopoverPresentationController
         barHideOnTapGestureRecognizer.addTarget(self, action: #selector(gestureRecognizedToggleVisibility(_:)))
         view.addGestureRecognizer(barHideOnTapGestureRecognizer)
 
-        let segmentItemWidth: CGFloat = 54.0
+        let segmentItemWidth: CGFloat = 50.0
         tableOfContentsToggleSegmentedControl .setWidth(segmentItemWidth, forSegmentAt: 0)
         tableOfContentsToggleSegmentedControl .setWidth(segmentItemWidth, forSegmentAt: 1)
         tableOfContentsToggleSegmentedControl .setWidth(segmentItemWidth, forSegmentAt: 2)
