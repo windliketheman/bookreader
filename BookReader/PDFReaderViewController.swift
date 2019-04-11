@@ -12,7 +12,7 @@ import MessageUI
 import UIKit.UIGestureRecognizerSubclass
 
 class PDFReaderViewController: UIViewController, UIPopoverPresentationControllerDelegate, PDFViewDelegate, ActionMenuViewControllerDelegate, SearchViewControllerDelegate, ThumbnailGridViewControllerDelegate, OutlineViewControllerDelegate, BookmarkViewControllerDelegate {
-    var pdfDocument: PDFDocument?
+    @objc var pdfDocument: PDFDocument?
 
     @IBOutlet weak var pdfView: PDFView!
     @IBOutlet weak var pdfThumbnailViewContainer: UIView!
